@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>	
+	<meta charset="utf-8">
+  	<title>Trace Ball</title>
+  	
+	<style>
+    		canvas {
+      			border: #333 2px solid;
+			background-color: #00aa00;
+    		}
+ 
+    		body {
+			background-color: #aaaaaa;
+      			padding: 50px;
+    		}
+  	</style>
+</head>
+ 
+	<body>
+  		<canvas id="myCanvas" width="550px" height="350px"></canvas>
+
+ 		<button type="button" onclick="myFunction()">New Game</button>
+
+  	<script>
+		function myFunction() {
+    					location.reload();
+		}
+
+    		var canvas = document.querySelector("#myCanvas");
+    		var context = canvas.getContext("2d");
+		var canvasPos = getPosition(canvas);
+		var mouseX = 0;
+		var mouseY = 0;
+		var easingAmount = 1;
+		
+
+		canvas.addEventListener("mousemove", setMousePosition, false);
+		
+
+		function setMousePosition(e) {
+  						mouseX = e.clientX - canvasPos.x;
+  						mouseY = e.clientY - canvasPos.y;
+						
+		}  
+     		
+
+    		function circle() {
+					context.clearRect(0, 0, canvas.width, canvas.height);
+  					context.beginPath();
+ 					context.arc(mouseX, mouseY, 15, 0, 2 * Math.PI, true);
+  					context.fillStyle = "#FF6A6A";
+  					context.fill();
+					this.canvas.style.cursor = "none";
+					requestAnimationFrame(circle);
+					
+		}
+			circle();	
+	
+		function NPC() {
+					
+  					context.beginPath();
+ 					context.arc(100, 100, 15, 0, 2 * Math.PI, true);
+  					context.fillStyle = "#aaaaaa";
+  					context.fill();
+					requestAnimationFrame(NPC);
+					
+		}
+			NPC();
+
+		function game(){
+   					
+		}
+
+		function getPosition(el) {
+  						var xPosition = 0;
+  						var yPosition = 0;
+ 
+  			while (el) {
+    					xPosition += (el.offsetLeft - el.scrollLeft + el.clientLeft);
+    					yPosition += (el.offsetTop - el.scrollTop + el.clientTop);
+    					el = el.offsetParent;
+  			}
+
+			return {
+    					x: xPosition,
+    					y: yPosition
+  			};
+  			
+		} 
+
+    		
+  	</script>
+ 
+	</body>
+ 
+</html>
