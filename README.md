@@ -15,7 +15,13 @@
 
 ## Product Backlog
 ### High Level Function Requirements
-##### Create Canvas
+
+#### Create Canvas
+#### Create 2 dimensional character
+#### 
+#### 
+#### 
+#### 
 
 ### High Level Non-Functional Requirements
 
