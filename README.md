@@ -1,7 +1,5 @@
 # Traceball-Project-1
 
-![flowchart](https://github.com/kap14275819/Traceball-Project-1/blob/master/Traceball%20flowchart.png)
-
 ## User Stories
 
 #### As a user I would like to play the game in my browser (cross platform)
@@ -13,6 +11,7 @@
 #### As a user I  would like to change the difficulty of the game to challenge myself
 
 ## Flow Chart
+![flowchart](https://github.com/kap14275819/Traceball-Project-1/blob/master/Traceball%20flowchart.png)
 
 ## Product Backlog
 
