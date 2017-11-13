@@ -57,7 +57,7 @@
 
 ### Debugging Process
 
-#### 
+#### The IDE did not have any features for debugging so the console from the platform was used which was Google Chrome.
 
 ### Coding Standards
 
