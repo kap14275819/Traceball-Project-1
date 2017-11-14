@@ -57,11 +57,11 @@
 
 ### Debugging Process
 
-#### The IDE did not have any features for debugging so the console from the platform was used which was Google Chrome.
+#### The IDE did not have any features for debugging so it would have either had to be done manually by scrolling through the code to find the problem and fix it oryou would have to us the console from the platform was used which was Google Chrome.
 
 ### Coding Standards
 
-####
+#### 
 
 ### Evaluation 
 
