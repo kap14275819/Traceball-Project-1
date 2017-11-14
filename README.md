@@ -61,7 +61,7 @@
 
 ### Coding Standards
 
-#### 
+#### While writing my code, indenting was used more often than spacing mainly because it saves time instead of repeatedly pressing or holding the space button.
 
 ### Evaluation 
 
