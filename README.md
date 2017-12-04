@@ -1,18 +1,20 @@
 # Traceball-Project-1
+## Core Requirements:
+#### 
 
-## Game Description
+## Game Description:
 
 #### The game is about surviving as long as possible. There is a chaser and a player, the player must use the mouse to move away from the chaser who will try and collide with the player position. Once the player has collided 3 times the game ends.
 
 ## User Stories
 
-#### As a user I would like to play the game in my browser (cross platform)
-#### As a user I would like to play the game multiple times (New game button)
-#### As a user I would like to have my character move in a 2 dimensional enviroment
-#### As a user I would like to have a visual representation of the player and NPC
-#### As a user I should get feedback when there is a collision between the NPC and player
-#### As a user I would like to know when I have won/lost the game
-#### As a user I  would like to change the difficulty of the game to challenge myself
+#### 1.As a user I would like to play the game in my browser (cross platform)
+#### 2.As a user I would like to play the game multiple times (New game button)
+#### 3.As a user I would like to have my character move in a 2 dimensional enviroment
+#### 4.As a user I would like to have a visual representation of the player and NPC
+#### 5.As a user I should get feedback when there is a collision between the NPC and player
+#### 6.As a user I would like to know when I have won/lost the game
+#### 7.As a user I  would like to change the difficulty of the game to challenge myself
 
 ## Flow Chart
 ![flowchart](https://github.com/kap14275819/Traceball-Project-1/blob/master/Traceball%20flowchart.png)
