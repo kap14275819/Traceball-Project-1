@@ -23,8 +23,8 @@
 ### High Level Function Requirements
 
 #### Create Canvas(550 x 350pixels)
-#### Create 2 dimensional character (Square)
-#### Create 2 dimensional NPC (Square)
+#### Create 2 dimensional character (Circle)
+#### Create 2 dimensional NPC (Circle)
 #### User mouse movement moves character
 #### Have NPC move to player position
 #### Character stays within Canvas
