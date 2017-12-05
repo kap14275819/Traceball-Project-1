@@ -1,6 +1,6 @@
 # Traceball-Project-1
 ## Core Requirements:
-#### The core requirements are to have two different characters, one must be a none playing character which is controlled by the computer and one character controlled by the user. This NPC follows the users location and moves across the screen towards them, the user can use its character to move away from the NPC and once the NPC has collided with the users character then a life is lost. The game ends when 3 lives have been lost. 
+#### The core requirements are to have two different characters, one must be a none playing character which is controlled by the computer and one character controlled by the user. This NPC follows the users location and moves across the screen towards them, the user can use its character to move away from the NPC and once the NPC has collided with the users character then a life is lost. The game ends when 3 lives have been lost. The coding will be all in Javascript and the platform will be Google Chrome.
 
 ## Game Description:
 
