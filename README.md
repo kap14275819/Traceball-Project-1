@@ -72,3 +72,7 @@
 
 ## Evalution and Teamwork:
 #### Overall the game was quite a hard challenge to complete even when i had a shorter amount of time, but still ended up quite well. Some parts were simple but after those tasks were completed the harder ones made it more challenging. In my opinion i think it was a good project and quite entertaining at the end of it as it was finalised but the most difficult part was to get the NPC to follow the users character. This work was managed by myself as it was an individual project without any teamwork. The research, coding and planning all was personally done which was quite good as it shows that i was able to complete this task without any help needed. The research and planning took its time but ended up all well in the end.
+
+## Relationship between algorithm and code:
+#### Since the program had been implemented as an algorithm then the best paradigm would be procedural. This is because the program does the process in computational steps, which is just like an algorithm. This is why the procedural paradigm is similar to the program.
+
