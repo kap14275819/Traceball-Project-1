@@ -9,17 +9,17 @@
 ## Epics and User Stories:
 
 ### Epics:
-#### Create a square canvas centered on the webpage that is 500px X 500px. The size has to be reasonable as it is important to the function of the game as having more or less playable space can affect the diffciculty of the gameplay.
+#### 1. Create a square canvas centered on the webpage that is 500px X 500px. The size has to be reasonable as it is important to the function of the game as having more or less playable space can affect the diffciculty of the gameplay.
 
-#### Create a NPC (Non-Playable Character). The NPC will be represented by a 2D red square that is 50px X 50px with no border. The size is important for the same reason as the size of the canvas, as it can affect the difficulty of the game.
+#### 2. Create a NPC (Non-Playable Character). The NPC will be represented by a 2D red square that is 50px X 50px with no border. The size is important for the same reason as the size of the canvas, as it can affect the difficulty of the game.
 
-#### Create a representation for the player controlled character. This will be almost similar to the NPC as it will be a 2D green square that is also 50px X 50px with no border. The size is important for the same reason as the size of the canvas and the NPC, as it can affect the difficulty of the game.
+#### 3. Create a representation for the player controlled character. This will be almost similar to the NPC as it will be a 2D green square that is also 50px X 50px with no border. The size is important for the same reason as the size of the canvas and the NPC, as it can affect the difficulty of the game.
 
-#### Make the players square lock onto the mouse cursor position instantly but only within the canvas, if the mouse was to leave the the borders of the canvas the square cannot follow as this would be easier for the player to avoid the NPC in the game.
+#### 4. Make the players square lock onto the mouse cursor position instantly but only within the canvas, if the mouse was to leave the the borders of the canvas the square cannot follow as this would be easier for the player to avoid the NPC in the game.
 
-#### Make the NPC square follow the players square/cursor position, but not instantly, to give the effect of the NPC chasing the player. This will provide the difficulty to the game.
+#### 5. Make the NPC square follow the players square/cursor position, but not instantly, to give the effect of the NPC chasing the player. This will provide the difficulty to the game.
 
-#### There needs to be collision detection between the player and the NPC. A collision also needs to be clearly visible to the player so they know when they have collided. This will be achieved by the players square changing colours when it touches the NPC and a message popping up on the screen saying that you have been hit.
+#### 6. There needs to be collision detection between the player and the NPC. A collision also needs to be clearly visible to the player so they know when they have collided. This will be achieved by the players square changing colours when it touches the NPC and a message popping up on the screen saying that you have been hit.
 
 
 ### User Stories:
