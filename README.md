@@ -6,8 +6,18 @@
 
 #### The game is about surviving as long as possible. There is a chaser and a player, the player must use the mouse to move away from the chaser who will try and collide with the player position. Once the player has collided 3 times the game ends.
 
-## User Stories:
+## Epics and User Stories:
 
+### Epics:
+####
+####
+####
+####
+####
+####
+
+
+### User Stories:
 #### 1. As a user I would like to play the game in my browser (cross platform)
 #### 2. As a user I would like to play the game multiple times (New game button)
 #### 3. As a user I would like to have my character move in a 2 dimensional enviroment
