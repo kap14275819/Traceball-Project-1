@@ -8,6 +8,8 @@
 
 ## Epics and User Stories:
 
+#### The Epics and User stories are basically the software requirements that are given to you by the client when you have the initial meeting. During this meeting they will present the main given information about the project and then also talk about what they would like within that application, but within this will also be the main requirements. A brief is usually given out to you so that you can break down the project and create Epics and User stories to guide you through. These Epics and User stories will be used as milestones when developing the application. You will also break down User Stories into smaller tasks to follow while you work, this will also help for debugging.
+
 ### Epics:
 #### 1. Create a square canvas centered on the webpage that is 500px X 500px. The size has to be reasonable as it is important to the function of the game as having more or less playable space can affect the diffciculty of the gameplay.
 
