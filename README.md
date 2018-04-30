@@ -1,6 +1,6 @@
 # Traceball-Project-1
 ## Core Requirements:
-#### The core requirements are to have two different characters, one must be a none playing character which is controlled by the computer and one character controlled by the user. This NPC follows the users location and moves across the screen towards them, the user can use its character to move away from the NPC and once the NPC has collided with the users character then a life is lost. The game ends when 3 lives have been lost. The coding will be all in Javascript and the platform will be Google Chrome.
+#### The core requirements are to have two different characters, one must be a none playing character which is controlled by the computer and one character controlled by the user. This NPC follows the user’s location and moves across the screen towards them, the user can use its character to move away from the NPC and once the NPC has collided with the user’s character then a life is lost. The game ends when 3 lives have been lost. The coding will be all in JavaScript and the platform will be Google Chrome.
 
 ## Game Description:
 
@@ -11,7 +11,7 @@
 #### The Epics and User stories are basically the software requirements that are given to you by the client when you have the initial meeting. During this meeting they will present the main given information about the project and then also talk about what they would like within that application, but within this will also be the main requirements. A brief is usually given out to you so that you can break down the project and create Epics and User stories to guide you through. These Epics and User stories will be used as milestones when developing the application. You will also break down User Stories into smaller tasks to follow while you work, this will also help for debugging.
 
 ### Epics:
-#### 1. Create a square canvas centered on the webpage that is 500px X 500px. The size has to be reasonable as it is important to the function of the game as having more or less playable space can affect the diffciculty of the gameplay.
+#### 1. Create a square canvas centred on the webpage that is 500px X 500px. The size has to be reasonable as it is important to the function of the game as having more or less playable space can affect the difficulty of the gameplay.
 
 #### 2. Create a NPC (Non-Playable Character). The NPC will be represented by a 2D red square that is 50px X 50px with no border. The size is important for the same reason as the size of the canvas, as it can affect the difficulty of the game.
 
@@ -27,11 +27,11 @@
 ### User Stories:
 #### 1. As a user I would like to play the game in my browser (cross platform)
 #### 2. As a user I would like to play the game multiple times (New game button)
-#### 3. As a user I would like to have my character move in a 2 dimensional enviroment
+#### 3. As a user I would like to have my character move in a 2 dimensional environment
 #### 4. As a user I would like to have a visual representation of the player and NPC
 #### 5. As a user I should get feedback when there is a collision between the NPC and player
 #### 6. As a user I would like to know when I have won/lost the game
-#### 7. As a user I  would like to change the difficulty of the game to challenge myself
+#### 7. As a user I would like to change the difficulty of the game to challenge myself
 
 ## Flow Chart:
 ![flowchart](https://github.com/kap14275819/Traceball-Project-1/blob/master/Traceball%20flowchart.png)
@@ -39,7 +39,7 @@
 ## Product Backlog:
 ### High Level Function Requirements:
 
-#### Create Canvas(550 x 350pixels)
+#### Create Canvas (550 x 350pixels)
 #### Create 2 dimensional character (Circle)
 #### Create 2 dimensional NPC (Circle)
 #### User mouse movement moves character
@@ -60,16 +60,16 @@
 
 #### I would like to play the game in my browser (cross platform)
 #### I would like to play the game multiple times (New game button)
-#### I would like to have my character move in a 2 dimensional enviroment
+#### I would like to have my character move in a 2 dimensional environment
 #### I would like to have a visual representation of the player and NPC
 #### I should get feedback when there is a collision between the NPC and player
 #### I would like to know when I have won/lost the game
-#### I  would like to change the difficulty of the game to challenge myself
+#### I would like to change the difficulty of the game to challenge myself
 
 ## Design Documentation:
 ### Process of Implementation
 
-#### The first item that was created was the HTML page which will be the platform for the game to run on. Then the canvas was made so that there will be a playable area for both the NPC and player. Next was the mouse to be tracked on the screen to the canvas, when tracked the mouse was given a 2Dimensional image so that it looks more like a character. Once that was done the NPC was then created with a similar shape but different colour. This NPC was then given the position of the player so that it may track them and chase down the character. Finally when the NPC is following the users character its then was given a dectection so that when the two collide it will detect that they have hit and then will display that it has collided. The user character is then given 3 lives for when it has collided with the NPC.
+#### The first item that was created was the HTML page which will be the platform for the game to run on. Then the canvas was made so that there will be a playable area for both the NPC and player. Next was the mouse to be tracked on the screen to the canvas, when tracked the mouse was given a 2Dimensional image so that it looks more like a character. Once that was done the NPC was then created with a similar shape but different colour. This NPC was then given the position of the player so that it may track them and chase down the character. Finally, when the NPC is following the users character its then was given a detection so that when the two collide it will detect that they have hit and then will display that it has collided. The user character is then given 3 lives for when it has collided with the NPC.
 
 ## Gantt Chart:
 ![ganttchart](https://github.com/kap14275819/Traceball-Project-1/blob/master/Gantt%20chart%20Project%201.png)
@@ -92,4 +92,5 @@
 
 ## Relationship between algorithm and code:
 #### Since the program had been implemented as an algorithm then the best paradigm would be procedural. This is because the program does the process in computational steps, which is just like an algorithm. This is why the procedural paradigm is similar to the program.
+
 
